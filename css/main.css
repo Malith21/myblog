@@ -1,0 +1,450 @@
+/*main page styles*/
+.container-fluid{
+   padding:0 50px!important;
+
+}
+.main-outer{
+   height: 100vh;
+   /*border: 1px solid red;*/
+   display: flex;
+   position: fixed;
+   overflow: auto;
+}
+
+.left{
+   width:280px;
+   height: 100vh;
+   /*border: 1px solid red;*/
+   background-color:#2f3640;
+   overflow: auto;
+   position: sticky;
+   top: 0;
+}
+.left::-webkit-scrollbar{
+    width: 8px;
+}
+
+.left::-webkit-scrollbar-thumb{
+    background-color: #f1f2f6;
+}
+
+.right{
+   height: 100%;
+   /*border: 1px solid blue;*/
+   flex: 1;
+}
+/*left side*/
+
+/*profile image*/
+.profile-pic-outer{
+   height: 220px;
+   width: 100%;
+   /*border: 1px solid red;*/
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.profile-pic-container{
+   height: 170px;
+   width: 170px;
+   background: url("https://www.winhelponline.com/blog/wp-content/uploads/2017/12/user.png");
+   no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+/*profile image*/
+
+/*nav bar*/
+.nav-outer{
+   width: 100%;
+   height: auto;
+
+   /*border: 1px solid red;*/
+}
+.developer-name{
+   font-family: 'Bebas Neue', cursive;
+   font-size: 36px;
+   color: #f5f6fa;
+   text-align: center;
+}
+.designation-text{
+   text-align: center;
+
+   font-family: 'Noto Serif', serif;
+   font-size: 13px;
+}
+.occupation{
+   color: #82ccdd;
+}
+
+.region{
+   color: #f5f6fa;
+}
+
+.nav-bar{
+   width: 100%;
+   /*border: 1px solid red;*/
+   list-style: none;
+   padding: 0;
+   margin: 50px 0;
+}
+
+.nav-bar li{
+   /*border:1px solid red;*/
+   padding: 5px 0;
+   text-align: center;
+
+}
+
+.nav-bar li a{
+  font-size: 13px;
+  text-decoration: none;
+  color: #f5f6fa;
+}
+
+
+/*nav bar*/
+
+/*footer styles*/
+.footer p{
+  text-align: center;
+  padding: 0 20px;
+
+}
+.footer-copy-text{
+   font-family: 'Noto Serif', serif;
+   color: #f5f6fa;
+   font-size: 12px;
+
+}
+
+/*footer styles*/
+
+/*left side*/
+
+/*right side*/
+
+/*slider*/
+.slider-outer{
+   width: 100%;
+   height: 100vh;
+   /*border: 1px solid red;*/
+}
+
+.slider-outer-image{
+   width: 100%;
+   height: 100%;
+   background: url("https://kingsbusinessclub.co.uk/wp-content/uploads/2020/09/Marketing-Associate-Image.jpg");
+   no-repeat; center;
+   background-size: cover;
+   display: flex;
+
+}
+
+.slider-inner-content{
+   padding: 0 10px;
+}
+
+.slider-developer-name{
+   font-family: 'Readex Pro', sans-serif;
+   color: white;
+   font-weight: bold;
+   font-size: 42px;
+}
+.slider-description{
+   font-family: 'Readex Pro', sans-serif;
+   color: white;
+   font-size: 22px;
+}
+.button-slider{
+   color: white;
+   border: 1px solid white;
+   margin: 0 20px;
+   width: 150px;
+   height: 40px;
+   border-radius: 3px;
+   background: none;
+}
+/*slider*/
+
+/*about*/
+
+.about-outer{
+   padding: 0 70px;
+   margin-bottom: 50px;
+}
+.about-title{
+   font-size: 15px;
+   text-transform: uppercase;
+   color: gray;
+   margin-bottom: 0;
+   margin-top: 50px;
+   letter-spacing: 5px;
+
+}
+.who-am-i{
+   font-size: 19px;
+   text-transform: uppercase;
+   color: black;
+   margin: 0 0 50px 0;
+   letter-spacing: 5px;
+}
+.description-1{
+   font-family: 'Readex Pro', sans-serif;
+   font-size: 15px;
+}
+.description-2{
+   font-family: 'Readex Pro', sans-serif;
+   font-size: 15px;
+}
+
+.about-skill-outer{
+   height: 200px;
+   width: 100%;
+   /*border: 1px solid red;*/
+   display: flex;
+   justify-content: space-between;
+}
+.about-skill-inner{
+   width: 20%;
+   height: 200px;
+   /*border: 1px solid red;*/
+   -webkit-box-shadow: 5px 4px 16px 5px #000000;
+   box-shadow: 5px 4px 16px 5px #000000;
+   padding: 20px;
+
+}
+.fa-lightbulb{
+   color: #2980b9;
+   height: 40px;
+}
+.fa-globe-americas{
+   color: #16a085;
+   height: 40px;
+}
+.fa-database{
+   color: #d35400;
+   height: 40px;
+}
+.fa-mobile{
+   color: #2c3e50;
+   height: 40px;
+}
+
+/*about*/
+
+/*successful-dev*/
+.success-main-outer{
+   width: 100%;
+   height: 230px;
+   /*border: 1px solid red;*/
+   margin-top: 50px;
+   padding: 0 70px;
+
+}
+
+.success-main-inner{
+   width: 100%;
+   height: 100%;
+   /*border: 1px solid blue;*/
+   background-color: #44bd32;
+   padding: 25px 25px;
+
+}
+.success-text{
+   font-family: 'Sedgwick Ave', cursive;
+   font-size: 40px;
+
+}
+.hire-me-button{
+   width: 120px;
+   height:40px;
+   padding: 6px 12px;
+   background: none;
+   border: 1px solid black;
+   border-radius: 3px;
+}
+/*successful-dev*/
+
+/*provide solutions*/
+.provide-solutions-outer{
+   padding: 50px 70px;
+}
+
+.provide-solutions-outer-items-wrap{
+   width: 100%;
+   height: 350px;
+   /*border: 1px solid red;*/
+   margin-top: 50px;
+   display: flex;
+   justify-content: space-between;
+}
+.solution-item{
+   width: 30%;
+   height: 100%;
+   /*border: 1px solid red;*/
+   display: flex;
+   flex-direction: column;
+}
+.solutions-item-upper-line{
+   height: 60px;
+   width: 100%;
+   /*border: 1px solid red;*/
+   display: flex;
+   justify-content: center;
+}
+.solutions-item-bottom-line{
+   width: 100%;
+   flex: 1;
+   /*border: 1px solid blue;*/
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 10px;
+   -webkit-box-shadow: 4px 0px 15px 0px rgba(0,0,0,0.67);
+   box-shadow: 4px 0px 15px 0px rgba(0,0,0,0.67);
+}
+.solutions-item-bottom-line h5{
+   text-align: center;
+}
+.solutions-item-bottom-line p{
+   text-align: center;
+}
+.hexagon {
+    height: 60px;
+    width: 120px;
+    position: relative;
+    margin-top: 28px;
+    background-color: #192a56;
+}
+.hexagon:before,
+.hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+}
+
+.hexagon:before {
+    bottom: 100%;
+    border-bottom: 50px solid #192a56;
+}
+
+.hexagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 50px solid #192a56;
+}
+
+/*provide solutions*/
+
+/*banner*/
+.banner-outer{
+    width: 100%;
+    height: 300px;
+    /*border: 1px solid red;*/
+    background: url("https://www.burohappold.com/wp-content/uploads/2020/02/experts-in-tall-buildings-burohappold_getty.jpg")no-repeat center fixed;
+    background-size: cover;
+
+}
+.banner-inner{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /*opacity: 0.1;*/
+    display: flex;
+}
+.banner-item{
+    width: 25%;
+    height: 100%;
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.banner-item h1, h6{
+    color: white;
+    text-align: center;
+}
+/*banner*/
+
+/*skills start*/
+.skill-outer{
+    padding: 50px 70px;
+}
+.progress-outer{
+    width: 100%;
+    height: 250px;
+    /*border: 1px solid red;*/
+    display: flex;
+}
+.progress-side{
+    flex: 1;
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-direction: column;
+
+}
+.progress-inner{
+   padding: 0 20px 0 0;
+   flex: 1;
+   /*border: 1px solid red;*/
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+
+}
+.lang-text{
+   font-weight: normal;
+   font-family: 'Readex Pro', sans-serif;
+   font-size: 14px;
+}
+/*skills start*/
+
+/*education-start*/
+.education-outer{
+
+  padding: 50px 70px;
+}
+
+/*education-end*/
+
+/*CONTACT*/
+.main-works-outer{
+    padding: 50px 70px;
+}
+.success-main-outer1{
+   width: 100%;
+   height: 230px;
+   /*border: 1px solid red;*/
+   margin-top: 50px;
+   padding: 0 70px;
+
+}
+
+.success-main-inner1{
+   width: 100%;
+   height: 100%;
+   /*border: 1px solid blue;*/
+   background-color: #f0932b;
+   padding: 25px 25px;
+
+}
+.success-text1{
+   font-family: 'Readex Pro', sans-serif;
+   font-size: 20px;
+
+}
+.location-wrap{
+    width: 100%;
+    height: 500px;
+}
+
+
+/*CONTACT*/
+
+
+/*right side*/
+
+/*main page styles*/
